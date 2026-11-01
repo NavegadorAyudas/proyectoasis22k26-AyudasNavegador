@@ -1,12 +1,20 @@
-﻿//-----------------------------------------------------
-// - Hecho por: Evelyn Sofía Andrade Luna
-// - Carne: 9959-23-1224
-// - Fecha: 26/10/2026
+﻿/*
+ * ============================================================
+ * Área   : NuevoNavegador
+ * Autor  : Evelyn Sofía Andrade Luna
+ * Carné  : 9959-23-1224
+ * Fecha  : 31/10/2026
+ *
+ * Propósito:
+ * Almacena la información del destino de una ayuda del
+ * Navegador, incluyendo la ruta del archivo CHM, la página
+ * que se debe mostrar y el mensaje correspondiente.
+ *
+ * ============================================================
+ */
 namespace CapaControlador_Navegador
 {
-    // Resultado de buscar la ayuda de una aplicación: en qué .chm está y qué página hay que abrir.
-    // Si RutaArchivo viene vacía es porque no hay ayuda disponible y Mensaje explica el motivo.
-    // Si Pagina viene vacía se abre el inicio del .chm.
+  
     public class ClsDestinoAyuda
     {
         private string _RutaArchivo = "";
